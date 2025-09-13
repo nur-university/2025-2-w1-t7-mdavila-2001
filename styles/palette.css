@@ -1,0 +1,19 @@
+:root {
+    --primary-blue: #0077ff;
+    --primary-green: #00c896;
+    --primary-teal: #00bcd4;
+    --primary-light: #e6f7ff;
+    --primary-dark: #0a192f;
+
+    --gradient-primary: linear-gradient(135deg, #5aa4f8, #00ebb1);
+    --gradient-alt: linear-gradient(135deg, #00bcd4, #0077ff);
+
+    --text-light: #ffffff;
+    --text-dark: #1a1a1a;
+    --text-gray: #6c757d;
+
+    --bg-light: #f9f9f9;
+    --bg-dark: #121212;
+    --bg-dark-blue: #0d1b2a;
+    --bg-dark-green: #0b2e26;
+}
