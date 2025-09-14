@@ -16,7 +16,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 60vh;
+    height: auto;
     background: var(--gradient-primary);
     color: var(--text-light);
     padding: 2rem;
