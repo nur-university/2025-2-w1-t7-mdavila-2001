@@ -85,6 +85,56 @@ body {
     flex-direction: row;
 }
 
+.projects-section {
+    padding: 2rem;
+    flex: 1;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    background-color: var(--bg-dark-blue);
+    color: var(--text-light);
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card a {
+    color: var(--text-light);
+}
+
+.project-card a:hover {
+    color: var(--text-muted);
+}
+.project-tech {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.project-image {
+    width: 180px;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.contact-section {
+    padding: 2rem;
+}
+
+textarea {
+    resize: none;
+}
+
 footer {
     margin-top: auto;
     padding: 15px 0;
